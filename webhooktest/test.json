@@ -1,0 +1,30 @@
+{
+  "custom":{
+  "query": "What is your gender?",
+  "buttons": [
+    {
+      "title": "Male",
+      "value": "Male"
+    },
+    {
+      "title": "Female",
+      "value": "Female"
+    },
+    {
+      "title": "Others",
+      "value": "Others"
+    }
+  ],
+  "card": [
+    {
+      "clickable": "",
+      "image_url": ""
+    }
+  ],
+  "sender": "",
+  "time": "",
+  "date_picker": "",
+  "fromDate": "",
+  "toDate": ""
+  }
+}

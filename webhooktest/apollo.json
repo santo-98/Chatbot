@@ -1,0 +1,76 @@
+{
+  "age" : {
+    "question" : "How old are you ?"
+  },
+  "gender": {
+    "question" : "What is your gender?",
+    "options" : [
+      {"value": "male", "score" : 0}, 
+      {"value": "female", "score" : 0.20}, 
+      {"value": "others", "score" : 0}
+    ]
+  },
+  "temperature" : {
+    "question": "Please let us know your current body temperature in degree Fahrenheit (Normal body temperature is 98.6°F):",
+    "options" : [
+      {"value" : "Normal", "score" : 0.60},
+      {"value" : "Fever", "score" : 1.4},
+      {"value" : "High fever", "score" : 1.66},
+      {"value" : "Don't know", "score" : 0.80}
+    ]
+  },
+  "symptoms" : {
+    "question" : "Are you experiencing any of the symptoms below (mark all those applicable)",
+    "options" : [
+      {"value" : "Dry cough", "score" : 0.55},
+      {"value" : "Loss or diminesh sense of smell", "score" : 1},
+      {"value" : "Sore of throat", "score" : 1.20},
+      {"value" : "Weakness", "score" : 1.35},
+      {"value" : "Change of Appetite", "score" : 1.6},
+      {"value" : "None of these", "score" : 0.30}
+    ]
+  },
+  "additional_symptoms" : {
+    "question" : "Additionally, please verify if you are experiencing any of the symptoms below (mark all those applicable)",
+    "options" : [
+      {"value" : "Moderate to Sevre Cough", "score" : 1.20},
+      {"value" : "Feeling Breathless", "score" : 1.60},
+      {"value" : "Difficulty in Breathing", "score" : 1.66},
+      {"value" : "Drowsiness", "score" : 1},
+      {"value" : "Persistent Pain and Pressure in Chest", "score" : 1.66},
+      {"value" : "Sevre Weakness", "score" : 1.35},
+      {"value" : "None of these", "score" : 0.30}
+    ]
+  },
+  "travel" : {
+    "question" : "Please select your travel and exposure details",
+    "options" : [
+      {"value" : "No Travel History", "score" : 0.80},
+      {"value" : "No contact with anyone with Symptoms", "score" : 0.80},
+      {"value" : "History of travel or meeting in affected geographical area in last 14 days", "score" : 1.2},
+      {"value" : "Close Contact with confirmed COVID in last 14 days", "score" : 1.66}
+    ]
+  },
+  "history_conditions" : {
+    "question" : "Do you have a history of any of these conditions (mark all those applicable)",
+    "options" : [
+      {"value" : "Diabetes", "score" : 1.12},
+      {"value" : "High Blood Pressure", "score" : 1.2},
+      {"value" : "Heart Disease", "score" : 1.5},
+      {"value" : "Kidney Disease", "score" : 1.5},
+      {"value" : "Lung disease", "score" : 1.5},
+      {"value" : "Stroke", "score" : 0.80},
+      {"value" : "Reduced Immunity", "score" : 1.43},
+      {"value" : "None of these", "score" : 0.20}
+    ]
+  },
+  "progressed_symptoms" :{
+    "question" : "How have your symptoms progressed over the last 48 hrs?",
+    "options" :[
+      {"value" : "Improved", "score" : 1},
+      {"value" : "Worsened", "score" : 1.66},
+      {"value" : "No Change", "score" : 0.20},
+      {"value" : "Worsened Considerably", "score" : 1.66}
+    ]
+  } 
+}
